@@ -1,5 +1,5 @@
-import { heroSectionData } from "/data/heroSectionData";
-import homePorfolioImage from '/assets/images/home_page_portfolio.png'
+import { heroSectionData } from "../../public/data/heroSectionData";
+import homePorfolioImage from "/assets/images/home_page_portfolio.png";
 import HeroSectionSocials from "./HeroSectionSocials";
 
 const HeroSection = () => {
