@@ -58,7 +58,7 @@ const Navbar = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
+                d="M6 18L18 6M6 6l12 12"
               />
             </svg>
           ) : (
@@ -73,15 +73,15 @@ const Navbar = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
+                d="M4 6h16M4 12h16m-7 6h7"
               />
             </svg>
           )}
         </button>
 
         <div
-          className={`font-inter lg:flex lg:relative lg:top-2  lg:p-0 absolute left-0 top-16 right-0 p-4 text-center transition ease-in-out ${
-            showMenu ? "hidden" : " "
+          className={`font-inter lg:bg-transparent bg-white lg:flex lg:relative lg:top-2  lg:p-0 absolute left-0 top-16 right-0 p-4 text-center transition ease-in-out ${
+            showMenu ? "" : "hidden"
           }`}
         >
           {NavLinks.map((link) => (

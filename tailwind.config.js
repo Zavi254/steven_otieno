@@ -14,6 +14,9 @@ export default {
         manrope: ["Manrope", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      borderRadius: {
+        "custom-100": "100px",
+      },
     },
   },
   plugins: [],
