@@ -6,7 +6,7 @@ const FeaturedProjects = () => {
       {projectsData.map((project) => (
         <div
           key={project.id}
-          className="font-manrope mt-9 lg:mt-16 grid grid-cols-1 items-center md:grid-cols-2 space-x-6"
+          className="font-manrope mt-9 lg:mt-16 grid grid-cols-1 items-center md:grid-cols-2 lg:space-x-6"
         >
           <div className="bg-customDarkGray mb-9 lg:mb-0 rounded-xl shadow-md p-5 lg:p-10">
             <img className="rounded-md" src={project.image} alt="" loading="lazy"/>
