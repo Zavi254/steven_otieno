@@ -23,8 +23,8 @@ const FeaturedProjects = () => {
                 PROJECT INFO
               </p>
               <div className="flex justify-between mt-2 mb-5 font-medium border-b pb-2 pt-2 border-b-customGray">
-                <p>Year</p>
-                <p className="dark:text-customGray">{project.year}</p>
+                <p>Technology Used:</p>
+                <p className="dark:text-customGray">{project.technology}</p>
               </div>
               <div className="flex justify-between mt-2 mb-5 font-medium border-b pb-2 pt-2 border-b-customGray">
                 <p>Role</p>
@@ -34,14 +34,14 @@ const FeaturedProjects = () => {
             <div className="text-customGreen flex gap-4 font-bold pt-3">
               <a
                 href={project.liveDemoLink}
-                className="flex items-center gap-2 underline underline-offset-8"
+                className="flex items-center gap-2 underline underline-offset-8" target="_blank"
               >
                 <p>LIVE DEMO</p>
                 <img src={project.newTabIcon} alt="" />
               </a>
               <a
-                href="#"
-                className="flex items-center gap-2 underline underline-offset-8"
+                href={project.githubLink}
+                className="flex items-center gap-2 underline underline-offset-8" target="_blank"
               >
                 <p>SEE ON GITHUB</p>
                 <img src={project.githubTabIcon} alt="" />

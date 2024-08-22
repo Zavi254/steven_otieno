@@ -6,7 +6,7 @@ const HeroSectionSocials = () => {
   return (
     <div className="flex gap-5 items-center mt-10">
       <a
-        href="mailto:steveotianga8991@gmail.com"
+        href="https://drive.google.com/file/d/15737Md-_-8ReRv4hBjDrVIJqSpbDtwrl/view?usp=sharing"
         target="_blank"
         className="text-black rounded-custom-100  bg-customGreen font-manrope pl-5 pr-2 pt-2 pb-2 font-bold text-sm flex items-center gap-3"
       >
