@@ -15,7 +15,7 @@ export const aboutMeData = {
   intro:
     " I am front-end developer based in Kenya. Has Information Technology background .",
   description:
-    " Hi there! I'm a software engineer with over 3 years of experience specializing in Frontend Development. I thrive on crafting seamless user experiences and optimizing performance. My focus is on helping businesses and individuals scale by building performant and scalable web applications using JavaScript and TypeScript",
+    " Hi there 👋🏽! I'm a software engineer with over 3 years of experience specializing in Frontend Development. I thrive on crafting seamless user experiences and optimizing performance. My focus is on helping businesses and individuals scale by building performant and scalable web applications using JavaScript and TypeScript",
   skills: [
     {
       id: 1,
