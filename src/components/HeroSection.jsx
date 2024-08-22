@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero_section"
-      className="grid grid-cols-1 md:grid-cols-2 md:space-x-4 md:mt-16 items-center mt-10  lg:pt-14 lg:pb-14 border-b border-customGray"
+      className="grid grid-cols-1 md:grid-cols-2 md:space-x-4 md:mt-16 items-center mt-10  lg:pt-14 lg:pb-14 lg:border-b border-customGray"
     >
       <div>
         <h1 className="font-bebas lg:text-4xl xl:text-6xl lg:mt-0 lg:mb-10 text-4xl text-black mb-3 mt-4 dark:text-white ">
@@ -18,7 +18,7 @@ const HeroSection = () => {
         <HeroSectionSocials />
       </div>
       <div className="bg-customGray rounded shadow-sm mt-6">
-        <img src={homePorfolioImage} alt="" />
+        <img src={homePorfolioImage} alt="" loading="lazy"/>
       </div>
     </section>
   );

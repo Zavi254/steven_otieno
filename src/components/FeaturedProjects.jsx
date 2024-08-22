@@ -9,7 +9,7 @@ const FeaturedProjects = () => {
           className="font-manrope mt-9 lg:mt-16 grid grid-cols-1 items-center md:grid-cols-2 space-x-6"
         >
           <div className="bg-customDarkGray mb-9 lg:mb-0 rounded-xl shadow-md p-5 lg:p-10">
-            <img className="rounded-md" src={project.image} alt="" />
+            <img className="rounded-md" src={project.image} alt="" loading="lazy"/>
           </div>
           <div>
             <h5 className=" dark:text-white text-lg font-medium lg:text-2xl mb-3 ">

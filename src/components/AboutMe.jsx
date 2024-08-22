@@ -5,13 +5,13 @@ const AboutMe = () => {
   return (
     <section
       id="about_me"
-      className="lg:pt-20 lg:pb-20 lg:mt-16 mt-9 grid grid-cols-1 md:grid-cols-2 space-x-6 border-b border-customGray"
+      className="lg:pt-20 lg:pb-20  mt-9 grid grid-cols-1 md:grid-cols-2 space-x-6 lg:border-b border-customGray"
     >
       <div>
         <h2 className="font-bebas mb-3 text-2xl mt-7 lg:text-5xl lg:mb-4 lg:mt-0 dark:text-white"> 
           About me
         </h2>
-        <img className="rounded-md shadow-lg lg:mb-0 lg:mt-0 mb-4 mt-4" src={AboutImageProfile} alt="" />
+        <img className="rounded-md shadow-lg lg:mb-0 lg:mt-0 mb-4 mt-4" src={AboutImageProfile} alt="" loading="lazy" />
       </div>
 
       <div className="font-manrope self-center">
