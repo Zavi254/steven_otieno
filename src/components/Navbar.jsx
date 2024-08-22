@@ -9,7 +9,7 @@ const NavLinks = [
 ];
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true); // Default to dark mode
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleDarkMode = () => {
@@ -26,9 +26,9 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if (document.documentElement.classList.contains("dark")) {
-      setDarkMode(true);
-    }
+    // Set dark mode on initial load
+    document.documentElement.classList.add("dark");
+    setDarkMode(true);
   }, []);
 
   return (
@@ -80,7 +80,7 @@ const Navbar = () => {
         </button>
 
         <div
-          className={`font-inter lg:bg-transparent bg-white lg:flex lg:relative lg:top-2  lg:p-0 absolute left-0 top-16 right-0 p-4 text-center transition ease-in-out ${
+          className={`font-inter lg:bg-transparent bg-white lg:flex lg:relative lg:top-2 lg:p-0 absolute left-0 top-16 right-0 p-4 text-center transition ease-in-out ${
             showMenu ? "" : "hidden"
           }`}
         >
