@@ -9,7 +9,7 @@ const HeroSection = () => {
       className="grid grid-cols-1 md:grid-cols-2 md:space-x-4 md:mt-10 items-center mt-5  lg:pt-14 lg:pb-14"
     >
       <div>
-        <h1 className="font-bebas lg:text-7xl lg:mt-0 lg:mb-10 text-4xl text-black mb-3 mt-4 dark:text-white ">
+        <h1 className="font-bebas lg:text-4xl xl:text-6xl lg:mt-0 lg:mb-10 text-4xl text-black mb-3 mt-4 dark:text-white ">
           {heroSectionData.title}
         </h1>
         <p className="font-manrope text-black dark:text-customGray lg:text-md leading-7 mt-3">
