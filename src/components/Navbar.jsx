@@ -32,7 +32,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="text-customGray">
+    <nav className={`text-customGray p-3 fixed left-0 top-0 right-0 z-10 lg:p-5 xl:ml-48 xl:mr-48 ${darkMode ? "bg-customBlack" : "bg-white"}`}>
       <ul className="flex items-center justify-between">
         <div>
           <a
