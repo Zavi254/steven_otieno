@@ -10,7 +10,7 @@ const HeroSectionSocials = () => {
         target="_blank"
         className="text-black rounded-custom-100  bg-customGreen font-manrope pl-5 pr-2 pt-2 pb-2 font-bold text-sm flex items-center gap-3"
       >
-        <p>CONTACT ME </p>
+        <p>DOWNLOAD RESUME </p>
         <img src={circleIcon} alt="" />
       </a>
 

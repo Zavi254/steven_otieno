@@ -4,7 +4,7 @@ import moonIcon from "/assets/images/moon_icon.png";
 
 const NavLinks = [
   { id: 1, name: "Work", href: "#work" },
-  { id: 2, name: "About", href: "/about" },
+  { id: 2, name: "About", href: "#about_me" },
   { id: 3, name: "Contact", href: "#contact" },
 ];
 
