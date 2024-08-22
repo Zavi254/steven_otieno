@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["/data/heroSectionData.jsx"],
+      external: ["/data/*.{jsx}"],
     },
   },
 });
